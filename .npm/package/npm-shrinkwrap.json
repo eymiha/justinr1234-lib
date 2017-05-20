@@ -1,0 +1,114 @@
+{
+  "dependencies": {
+    "const-max-uint32": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/const-max-uint32/-/const-max-uint32-1.0.2.tgz",
+      "from": "const-max-uint32@>=1.0.2 <2.0.0"
+    },
+    "const-pinf-float64": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/const-pinf-float64/-/const-pinf-float64-1.0.0.tgz",
+      "from": "const-pinf-float64@>=1.0.0 <2.0.0"
+    },
+    "debug": {
+      "version": "2.6.3",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.3.tgz",
+      "from": "debug@2.6.3"
+    },
+    "izitoast": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/izitoast/-/izitoast-1.1.1.tgz",
+      "from": "izitoast@1.1.1"
+    },
+    "ms": {
+      "version": "0.7.2",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-0.7.2.tgz",
+      "from": "ms@0.7.2"
+    },
+    "object-keys": {
+      "version": "1.0.11",
+      "resolved": "https://registry.npmjs.org/object-keys/-/object-keys-1.0.11.tgz",
+      "from": "object-keys@>=1.0.9 <2.0.0"
+    },
+    "regex-regex": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/regex-regex/-/regex-regex-1.0.0.tgz",
+      "from": "regex-regex@>=1.0.0 <2.0.0"
+    },
+    "type-name": {
+      "version": "2.0.2",
+      "resolved": "https://registry.npmjs.org/type-name/-/type-name-2.0.2.tgz",
+      "from": "type-name@>=2.0.0 <3.0.0"
+    },
+    "utils-copy": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/utils-copy/-/utils-copy-1.1.1.tgz",
+      "from": "utils-copy@>=1.1.0 <2.0.0"
+    },
+    "utils-copy-error": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/utils-copy-error/-/utils-copy-error-1.0.1.tgz",
+      "from": "utils-copy-error@>=1.0.0 <2.0.0"
+    },
+    "utils-error-to-json": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/utils-error-to-json/-/utils-error-to-json-1.0.0.tgz",
+      "from": "utils-error-to-json@1.0.0"
+    },
+    "utils-indexof": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/utils-indexof/-/utils-indexof-1.0.0.tgz",
+      "from": "utils-indexof@>=1.0.0 <2.0.0"
+    },
+    "utils-regex-from-string": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/utils-regex-from-string/-/utils-regex-from-string-1.0.0.tgz",
+      "from": "utils-regex-from-string@>=1.0.0 <2.0.0"
+    },
+    "validate.io-array": {
+      "version": "1.0.6",
+      "resolved": "https://registry.npmjs.org/validate.io-array/-/validate.io-array-1.0.6.tgz",
+      "from": "validate.io-array@>=1.0.3 <2.0.0"
+    },
+    "validate.io-array-like": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/validate.io-array-like/-/validate.io-array-like-1.0.2.tgz",
+      "from": "validate.io-array-like@>=1.0.1 <2.0.0"
+    },
+    "validate.io-buffer": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/validate.io-buffer/-/validate.io-buffer-1.0.2.tgz",
+      "from": "validate.io-buffer@>=1.0.1 <2.0.0"
+    },
+    "validate.io-integer": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/validate.io-integer/-/validate.io-integer-1.0.5.tgz",
+      "from": "validate.io-integer@>=1.0.5 <2.0.0"
+    },
+    "validate.io-integer-primitive": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/validate.io-integer-primitive/-/validate.io-integer-primitive-1.0.0.tgz",
+      "from": "validate.io-integer-primitive@>=1.0.0 <2.0.0"
+    },
+    "validate.io-nonnegative-integer": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/validate.io-nonnegative-integer/-/validate.io-nonnegative-integer-1.0.0.tgz",
+      "from": "validate.io-nonnegative-integer@>=1.0.0 <2.0.0"
+    },
+    "validate.io-number": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/validate.io-number/-/validate.io-number-1.0.3.tgz",
+      "from": "validate.io-number@>=1.0.3 <2.0.0"
+    },
+    "validate.io-number-primitive": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/validate.io-number-primitive/-/validate.io-number-primitive-1.0.0.tgz",
+      "from": "validate.io-number-primitive@>=1.0.0 <2.0.0"
+    },
+    "validate.io-string-primitive": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/validate.io-string-primitive/-/validate.io-string-primitive-1.0.1.tgz",
+      "from": "validate.io-string-primitive@>=1.0.0 <2.0.0"
+    }
+  }
+}
