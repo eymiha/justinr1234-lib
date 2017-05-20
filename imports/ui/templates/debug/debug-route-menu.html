@@ -1,0 +1,14 @@
+<template name="DEBUG_ROUTE_MENU">
+  {{#if debugEnabled}}
+    <div class="ui selection dropdown debugPathMenu" style="height: 0; margin: auto 10px;">
+      <input type="hidden" name="debug-route-selection">
+      <i class="dropdown icon"></i>
+      <div class="default text">Routes</div>
+      <div class="menu">
+        {{#each routes}}
+          <div class="item" data-value="{{path}}">{{name}}</div>
+        {{/each}}
+      </div>
+    </div>
+  {{/if}}
+</template>
