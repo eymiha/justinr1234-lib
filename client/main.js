@@ -21,11 +21,14 @@ import {
   mergeRoutesByGroup,
 } from '../imports/lib/both/routes/util.js';
 import { Router } from '../imports/lib/both/routes/router.js';
-import '../imports/ui/templates';
-import { autoformHooks } from '../imports/lib/client/autoform-hooks.js';
-import '../imports/startup/both';
+import '../imports/routes.js';
 import { DEBUG_ENABLED } from '../imports/startup/both/debug.js';
 import { CollectionBehaviors } from '../imports/lib/both/collection-behaviors.js';
+import { autoformHooks } from '../imports/lib/client/autoform-hooks.js';
+import '../imports/ui/templates';
+import '../imports/ui/pages';
+import '../imports/startup/both';
+import '../imports/startup/client';
 
 export {
   pkgJson,

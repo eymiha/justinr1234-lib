@@ -1,7 +1,7 @@
 /* globals Package, Npm */
 Package.describe({
   name: 'justinr1234:lib',
-  version: '0.0.17',
+  version: '0.0.19',
   summary: 'justinr1234 Lib',
   documentation: 'README.md',
   git: 'https://github.com/justinr1234/justinr1234-lib',
@@ -13,8 +13,6 @@ Npm.depends({
 });
 
 Package.onUse(api => {
-  // If no version is specified for an `api.use` dependency, use the one defined
-  // in Meteor 1.4.3.1.
   api.versionsFrom('1.4.4.2');
   api.use('reactive-var');
   api.use('reactive-dict');
@@ -22,10 +20,16 @@ Package.onUse(api => {
   api.use('random');
   api.use('underscore');
   api.use('localstorage');
+  api.use('accounts-base');
 
   // CLIENT LIB
+  api.use('accounts-ui@1.1.9');
   api.use('templating@1.3.2', 'client');
   api.use('kadira:flow-router@2.12.1');
+  api.use('accounts-password@1.3.6');
+  api.use('useraccounts:flow-routing@1.14.2');
+  api.use('useraccounts:semantic-ui@1.14.2', 'client');
+  api.use('aldeed:autoform@5.8.1', 'client');
 
   // COMMON LIB
   api.use('aldeed:simple-schema@1.5.3');

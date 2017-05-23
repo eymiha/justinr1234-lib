@@ -7,3 +7,7 @@ This package is part of the [opinionated-meteor-application-template project](ht
 - Debug menu dropdown template to jump to various routes in the system
 - Client side helpers for data loading and error handling of publication subscriptions
 - Various helpers and exports for publications
+
+## Troubleshooting
+
+If you receive the error `Error: Depending on unknown package <packagename>`: `rm -rf .meteor/local/resolver-result-cache.json`

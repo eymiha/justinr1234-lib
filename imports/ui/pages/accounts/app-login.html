@@ -1,0 +1,43 @@
+<!--<template name="APP_LOGIN">-->
+  <!--<div class="ui grid text container cx-login-container">-->
+    <!--<div class='column sm16 cx-login-form'>-->
+      <!--{{#if showTitle}}-->
+        <!--{{> atTitle}}-->
+        <!--{{#if showOauthServices}}-->
+          <!--<div class="ui divider"></div>-->
+        <!--{{/if}}-->
+      <!--{{/if}}-->
+      <!--<div class="at-pwd-form">-->
+        <!--{{#if showMessage}}-->
+          <!--{{> atMessage}}-->
+        <!--{{/if}}-->
+        <!--{{#if showError}}-->
+          <!--{{> atError}}-->
+        <!--{{/if}}-->
+        <!--{{#if showResult}}-->
+          <!--{{> atResult}}-->
+        <!--{{/if}}-->
+        <!--<form id="at-pwd-form" action="#" method="POST" novalidate class="ui large form">-->
+          <!--<div class="">-->
+            <!--{{#each fields}}-->
+              <!--{{> atInput}}-->
+            <!--{{/each}}-->
+            <!--<div class='cx-cta-buttons'>-->
+              <!--{{> atPwdFormBtn}}-->
+              <!--{{#if any showSignUpLink}}-->
+                <!--<a href="{{signUpLink}}" id="at-signUp" class="at-link at-signup {{disabled}}">{{linkText}}</a>-->
+              <!--{{/if}}-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</form>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</template>-->
+
+<template name="APP_LOGIN">
+  <div class="ui text container">
+    {{> atForm state='signIn'}}
+  </div>
+</template>
+
