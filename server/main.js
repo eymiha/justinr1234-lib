@@ -19,9 +19,10 @@ import {
   mergeRoutesByGroup,
 } from '../imports/lib/both/routes/util.js';
 import { Router } from '../imports/lib/both/routes/router.js';
-import '../imports/startup/both';
+import '../imports/routes.js';
 import { DEBUG_ENABLED } from '../imports/startup/both/debug.js';
 import { CollectionBehaviors } from '../imports/lib/both/collection-behaviors.js';
+import '../imports/startup/both';
 
 export {
   pkgJson,
